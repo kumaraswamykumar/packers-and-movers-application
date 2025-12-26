@@ -1,0 +1,35 @@
+/* Accordion Styles */
+.accordion {
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.accordion-header {
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #f6f6f6;
+  border-radius: 8px;
+}
+
+.accordion-header h4 {
+  font-size: 17px;
+  margin: 0;
+  color: #333;
+}
+
+.accordion-body {
+  padding: 14px;
+  font-size: 15px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.accordion-body p,
+.accordion-body li {
+  margin: 6px 0;
+  color: #444;
+}

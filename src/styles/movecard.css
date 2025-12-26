@@ -1,0 +1,56 @@
+/* Move Card Styles */
+.move-card {
+  width: 280px;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #222;
+  transition: 0.2s;
+  display: block;
+}
+
+.move-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.move-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.move-header h3 {
+  font-size: 18px;
+}
+
+.status {
+  background: #007bff;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.move-row p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.view-details-btn {
+  margin-top: 12px;
+  padding: 6px 10px;
+  width: 100%;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.view-details-btn:hover {
+  background: #e8e8e8;
+}

@@ -1,0 +1,31 @@
+/* Move Details Layout */
+.details-container {
+  margin-left: 320px;
+  padding: 30px;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.details-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.details-section {
+  background: #fafafa;
+  padding: 18px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.details-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.details-section p {
+  margin: 6px 0;
+  color: #333;
+}

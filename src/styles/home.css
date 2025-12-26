@@ -1,0 +1,25 @@
+/* Home Page Layout */
+.home-page {
+  margin-left: 320px; /* sidebar width + padding */
+  padding: 30px;
+}
+
+.home-page h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.loader {
+  margin-left: 320px;
+  padding-top: 100px;
+  font-size: 24px;
+  color: #777;
+  text-align: center;
+}
